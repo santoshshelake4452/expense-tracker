@@ -49,7 +49,7 @@ Open XAMPP Control Panel and start both **Apache** and **MySQL**.
 
 **3. Open in browser**
 ```
-http://localhost/expense-tracker/index.php
+http://localhost/expense_tracker/index.php
 ```
 
 The database and tables are created automatically on first load. No manual SQL setup needed.
@@ -115,7 +115,7 @@ The app will auto-fill description, amount, and category. Works in **Google Chro
 - Test the API directly: `http://localhost/expense-tracker/api.php?action=profile`
 - If the path is wrong, hardcode it in `index.php`:
   ```javascript
-  const PHP_API_BASE_URL = "/expense-tracker/api.php";
+  const PHP_API_BASE_URL = "/expense_tracker/api.php";
   ```
 
 **Voice input not working**
